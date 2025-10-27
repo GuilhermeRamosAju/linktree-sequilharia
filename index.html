@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sequilharia Aju</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="foto-wrapper">
+            <img src="logo.svg" alt="Logo Sequilharia Aju" class="logo">
+        </div>
+        <img src="frase.svg" alt="frase" class="frase">
+
+        <div class="links">
+            <a href="https://wa.me/5579999763178?text=Ol%C3%A1!%20Tenho%20interesse%20em%20adquirir%20o%20produto.%20Poderia%20me%20enviar%20os%20detalhes%20sobre%20pagamento%20e%20entrega%2C%20por%20favor%3F"
+                target="_blank" aria-label="Peça pelo WhatsApp">
+                Peça pelo WhatsApp
+            </a>
+            <a href="https://heyzine.com/flip-book/3ddb64279d.html" target="_blank"
+                aria-label="Cardapio Sequilharia Aju">
+                Cardapio Sequilharia Aju
+            </a>
+            <a href="https://www.instagram.com/p/DQKoH8WDxEJ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+                target="_blank" aria-label="Instragram da Sequilharia Aju">
+                Instragram da Sequilharia Aju
+            </a>
+        </div>
+
+        <div class="quem-somos">
+            <button class="toggle">Quem Somos</button>
+            <div class="content">
+                <p>
+                    Sou Daniela, enfermeira formada em 2009 e apaixonada por gente e por conexões genuínas. Após atuar
+                    em várias áreas do cuidado, percebi que queria expressar esse carinho de outra forma, através do
+                    alimento. Hoje, levo afeto e cuidado por meio dos sequilhos, acreditando que cada potinho transmite
+                    o mesmo amor presente em um gesto, uma lembrança ou uma refeição feita com carinho.
+                </p>
+            </div>
+        </div>
+        <img src="biscoito.svg" alt="Logo Sequilharia Aju" class="biscoito">
+        <footer>
+            © 2025 Sequilharia Aju | Desenvolvido por <a href="https://www.instagram.com/meteoracomunicacao/"
+                target="_blank">Meteora Comunicações</a>
+        </footer>
+    </div>
+
+    <script>
+        const toggle = document.querySelector('.toggle');
+        const content = document.querySelector('.content');
+
+        toggle.addEventListener('click', () => {
+            content.classList.toggle('active');
+            toggle.classList.toggle('open');
+        });
+    </script>
+</body>
+
+</html>
