@@ -14,8 +14,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 90vh;
+    height: 100vh;
     position: relative;
+}
+
+@media (min-width: 768px) {
+  body {
+    min-height: 100vh;
+    background-size: contain;
+    background-position: center top;
+  }
 }
 
 body::before {
@@ -57,7 +65,7 @@ body > * {
 
 .frase {
     width: 100%;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
 .links {
@@ -128,6 +136,7 @@ body > * {
 }
 
 .biscoito {
+    width: 6rem;
     opacity: 0.8;
     position: fixed;
     bottom: 0;
@@ -142,7 +151,6 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    padding-bottom: 0.5rem;
 }
 
 footer a {
