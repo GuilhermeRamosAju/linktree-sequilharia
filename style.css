@@ -20,9 +20,8 @@ body {
 
 @media (min-width: 768px) {
   body {
-    min-height: 100vh;
-    background-size: contain;
-    background-position: center top;
+    background-size: cover;
+        background-repeat: repeat;
   }
 }
 
