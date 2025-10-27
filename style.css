@@ -19,10 +19,10 @@ body {
 }
 
 @media (min-width: 768px) {
-  body {
-    background-size: cover;
+    body {
+        background-size: cover;
         background-repeat: repeat;
-  }
+    }
 }
 
 body::before {
@@ -33,7 +33,7 @@ body::before {
     z-index: 0;
 }
 
-body > * {
+body>* {
     position: relative;
     z-index: 1;
 }
@@ -122,12 +122,14 @@ body > * {
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
-    z-index: 0;
+
 }
 
 .content.active {
     max-height: 250px;
     padding: 15px;
+    position: relative;
+    z-index: 999;
 }
 
 .content p {
@@ -141,6 +143,7 @@ body > * {
     position: fixed;
     bottom: 0;
     left: 0;
+    z-index: 0;
 }
 
 footer {
